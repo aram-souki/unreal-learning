@@ -24,20 +24,7 @@ public class Collectathon : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
-			"Collectathon",
-			"Collectathon/Variant_Platforming",
-			"Collectathon/Variant_Platforming/Animation",
-			"Collectathon/Variant_Combat",
-			"Collectathon/Variant_Combat/AI",
-			"Collectathon/Variant_Combat/Animation",
-			"Collectathon/Variant_Combat/Gameplay",
-			"Collectathon/Variant_Combat/Interfaces",
-			"Collectathon/Variant_Combat/UI",
-			"Collectathon/Variant_SideScrolling",
-			"Collectathon/Variant_SideScrolling/AI",
-			"Collectathon/Variant_SideScrolling/Gameplay",
-			"Collectathon/Variant_SideScrolling/Interfaces",
-			"Collectathon/Variant_SideScrolling/UI"
+			"Collectathon"
 		});
 
 		// Uncomment if you are using Slate UI
