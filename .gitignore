@@ -1,0 +1,38 @@
+# Visual Studio / editor files
+.vs/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.ncb
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+# Compiled binaries
+Binaries/
+Plugins/*/Binaries/
+
+# Builds
+Build/*
+!Build/**/Resources/**/*.ico
+
+# Derived data cache
+DerivedDataCache/
+
+# Compiled intermediate files
+Intermediate/
+Plugins/*/Intermediate/
+
+# Cached per-user config (keep shared config)
+Saved/*
+!Saved/Config/
+!Saved/Config/**/*.ini
+
+# Source control housekeeping from other VCS
+.hg/
+.svn/
+
+# OS files
+.DS_Store
+Thumbs.db
